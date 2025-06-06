@@ -2,7 +2,9 @@
   "name": "@individual/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "lint": "npx nx affected -t lint test build"
+  },
   "private": true,
   "dependencies": {},
   "devDependencies": {
